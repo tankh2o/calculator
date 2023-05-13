@@ -6,7 +6,6 @@ public class NumberService {
     public String greeting() {
         return "Добро пожаловать в калькулятор";
     }
-    //Если какой-то из двух параметров (или оба) не поданы, нужно вернуть ошибку.
 
     public String plus(int num1, int num2) {
         String plus = String.valueOf(num1 + num2);
